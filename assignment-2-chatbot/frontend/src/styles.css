@@ -1,0 +1,52 @@
+.spreadsheet-container {
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+
+td:focus {
+    outline: none;
+    background-color: #e3f2fd;
+}
+
+.row-label {
+    font-weight: bold;
+    background-color: #f1f1f1;
+    text-align: center;
+}
